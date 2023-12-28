@@ -46,7 +46,7 @@ create:
                 |       |smooth |       |
                 |       | stone |       |
                 |_______|_______|_______|
-
+done
 
 
 grappling hook mod:
