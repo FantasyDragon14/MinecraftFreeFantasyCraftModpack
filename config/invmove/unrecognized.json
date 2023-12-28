@@ -1,0 +1,14 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.ReceivingLevelScreen": true,
+    "io.github.mortuusars.exposure.client.gui.screen.LightroomScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": false,
+    "com.simibubi.create.foundation.blockEntity.behaviour.ValueSettingsScreen": true,
+    "lekavar.lma.drinkbeer.gui.TradeBoxScreen": true
+  },
+  "hideBackground": {
+    "io.github.mortuusars.exposure.client.gui.screen.LightroomScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "lekavar.lma.drinkbeer.gui.TradeBoxScreen": true
+  }
+}

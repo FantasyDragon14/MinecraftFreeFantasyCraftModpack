@@ -1,0 +1,17 @@
+computercraft:gui/border_advanced	x=0	y=0	w=36	h=36
+computercraft:gui/border_colour	x=64	y=0	w=36	h=36
+computercraft:gui/border_command	x=0	y=64	w=36	h=36
+computercraft:gui/border_normal	x=36	y=64	w=36	h=36
+computercraft:gui/buttons/terminate	x=36	y=16	w=12	h=12
+computercraft:gui/buttons/terminate_hover	x=36	y=28	w=12	h=12
+computercraft:gui/buttons/turned_off	x=36	y=40	w=12	h=12
+computercraft:gui/buttons/turned_off_hover	x=36	y=52	w=12	h=12
+computercraft:gui/buttons/turned_on	x=52	y=0	w=12	h=12
+computercraft:gui/buttons/turned_on_hover	x=52	y=12	w=12	h=12
+computercraft:gui/pocket_bottom_advanced	x=0	y=36	w=36	h=20
+computercraft:gui/pocket_bottom_colour	x=64	y=36	w=36	h=20
+computercraft:gui/pocket_bottom_normal	x=72	y=64	w=36	h=20
+computercraft:gui/sidebar_advanced	x=100	y=0	w=17	h=14
+computercraft:gui/sidebar_command	x=100	y=14	w=17	h=14
+computercraft:gui/sidebar_normal	x=100	y=28	w=17	h=14
+minecraft:missingno	x=36	y=0	w=16	h=16
