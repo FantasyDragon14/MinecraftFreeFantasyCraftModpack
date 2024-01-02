@@ -10,6 +10,7 @@ minecraft:
                 2 crying obsidian on the sides (to make it more of an endgame thing?)
         done
 
+
 Joy of Painting:
         add farmersdelight canvas to JoyOfPainting-canvas recipes
 done
@@ -80,7 +81,3 @@ eureka:
 
         shipengine:
                 crafted with 2x steelblocks, rest steel ingots, steam engine, blast furnace, glass pane, 
-        
-        
-
-                

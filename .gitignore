@@ -4,4 +4,14 @@ logs/latest.log
 logs/debug.log
 logs/crafttweaker.log
 profile.json
-profile.json
+crash-reports/
+logs/
+saves/
+options.txt
+usercache.json
+usernamecache.json
+servers.dat
+schematics/
+figura/
+knownkeys.txt
+Xaero*
