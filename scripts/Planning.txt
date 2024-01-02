@@ -51,14 +51,36 @@ done
 
 grappling hook mod:
         remove normal recipes
+        change upgrade table recipe
         make grappling hook upgrades per assembly line?
         remove forcefield
         ender staff: craft with end rod (ender eye, end rod, piston)
         upgrades:
                 rope upgrade: with 3 rope instead of 1 lead
                 rocket upgrade: 3 duration 3 rockets
+done
 
 
 handcrafted:
         silverfish trophy: use infested stone
 done
+
+
+eureka:
+        balloons:
+                remove all recipes
+                crafting: phantom membrane, rope, potion of slowfalling (for 1xBlock)
+                change lifting strength 10%
+
+        floater:
+                more planks, rope, leather (for 4xBlocks)
+
+        anchor:
+                rope, steelanvil & steel
+
+        shipengine:
+                crafted with 2x steelblocks, rest steel ingots, steam engine, blast furnace, glass pane, 
+        
+        
+
+                

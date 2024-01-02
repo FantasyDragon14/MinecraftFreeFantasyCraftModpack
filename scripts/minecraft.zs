@@ -8,3 +8,7 @@ craftingTable.addShaped("crying_ender_chest", <item:minecraft:ender_chest>, [
 [<item:minecraft:crying_obsidian>, <item:minecraft:ender_eye>, <item:minecraft:crying_obsidian>],
 [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]
 ]);
+
+
+craftingTable.remove(<item:minecraft:flint_and_steel>);
+craftingTable.addShapeless("steel_with_flint", <item:minecraft:flint_and_steel>, [<item:simplysteel:steel_ingot>]);

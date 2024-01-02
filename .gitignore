@@ -3,3 +3,4 @@ logs/latest_stdout.log
 logs/latest.log
 logs/debug.log
 logs/crafttweaker.log
+profile.json
