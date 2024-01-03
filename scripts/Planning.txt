@@ -10,17 +10,13 @@ minecraft:
                 2 crying obsidian on the sides (to make it more of an endgame thing?)
         done
 
+        saddle
+        done
+done
 
 Joy of Painting:
         add farmersdelight canvas to JoyOfPainting-canvas recipes
 done
-
-
-computercraft:
-        overhaul all recipes for create:
-                other ingredients
-                make all things get assembled?
-                        needs new items, maybe later
 
 
 create:
@@ -81,3 +77,23 @@ eureka:
 
         shipengine:
                 crafted with 2x steelblocks, rest steel ingots, steam engine, blast furnace, glass pane, 
+done
+
+
+computercraft:
+        overhaul all recipes for create:
+                other ingredients
+                make all things get assembled?
+                        needs new items, maybe later
+tbd
+
+
+lightmans currency:
+        All aesthetically unfitting Blocks
+                disable
+                find replacements where needed
+        add exchange recipes
+
+        add infinite source?
+                daily quests?
+tbd   
