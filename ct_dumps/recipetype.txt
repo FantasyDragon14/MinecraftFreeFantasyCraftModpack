@@ -30,6 +30,8 @@
 <recipetype:drinkbeer:brewing>
 <recipetype:farmersdelight:cooking>
 <recipetype:farmersdelight:cutting>
+<recipetype:jearchaeology:brush>
+<recipetype:jearchaeology:sniff>
 <recipetype:minecraft:blasting>
 <recipetype:minecraft:campfire_cooking>
 <recipetype:minecraft:crafting>

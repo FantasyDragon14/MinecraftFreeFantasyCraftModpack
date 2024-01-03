@@ -1,3 +1,4 @@
+<entitytype:corpse:corpse>
 <entitytype:create:carriage_contraption>
 <entitytype:create:contraption>
 <entitytype:create:crafting_blueprint>
@@ -33,6 +34,10 @@
 <entitytype:grapplemod:grapplehook>
 <entitytype:handcrafted:fancy_painting>
 <entitytype:handcrafted:seat>
+<entitytype:immersive_paintings:glow_graffiti>
+<entitytype:immersive_paintings:glow_painting>
+<entitytype:immersive_paintings:graffiti>
+<entitytype:immersive_paintings:painting>
 <entitytype:minecraft:allay>
 <entitytype:minecraft:area_effect_cloud>
 <entitytype:minecraft:armor_stand>
@@ -160,5 +165,10 @@
 <entitytype:railways:benchcart>
 <entitytype:railways:conductor>
 <entitytype:railways:jukeboxcart>
+<entitytype:simplysteel:falling_anvil>
+<entitytype:simplysteel:steel_golem>
+<entitytype:valkyrienskies:ship_mounting_entity>
+<entitytype:valkyrienskies:vs_physics_entity>
+<entitytype:xercamusic:music_spirit>
 <entitytype:xercapaint:canvas>
 <entitytype:xercapaint:easel>
