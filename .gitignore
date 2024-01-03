@@ -17,4 +17,5 @@ knownkeys.txt
 music_sheets/
 Xaero*
 config/DistantHorizons.toml
-config/jei/world/local/New_World/bookmarks.ini
+config/jei/world/
+config/inventoryprofilesnext/
