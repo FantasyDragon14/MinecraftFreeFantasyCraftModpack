@@ -6,7 +6,7 @@
   "ComputerCraft" : {
     "canTurtlesLeaveScaledShips" : false
   },
-  "enableInteractDistanceChecks" : true,
+  "enableInteractDistanceChecks" : false,
   "transformTeleports" : true,
   "enableMovementChecks" : false,
   "preventFluidEscapingShip" : true,

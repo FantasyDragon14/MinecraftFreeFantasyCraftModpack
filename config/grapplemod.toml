@@ -89,7 +89,7 @@ default_value = false
 enabled = 0
 [options.grapplinghook.custom.forcefield.repel]
 default_value = false
-enabled = 0
+enabled = 2
 [options.grapplinghook.custom.forcefield.repelforce]
 default_value = 1.0
 enabled = 0
@@ -177,7 +177,7 @@ climb_speed = 0.3
 longfallbootsrecipe = true
 [options.enderstaff]
 ender_staff_strength = 1.5
-ender_staff_recharge = 100
+ender_staff_recharge = 1000
 [options.enchantments.wallrun]
 wall_jump_up = 0.7
 wall_jump_side = 0.4
@@ -185,7 +185,7 @@ max_wallrun_time = 3.0
 wallrun_speed = 0.1
 wallrun_max_speed = 0.7
 wallrun_drag = 0.01
-wallrun_min_speed = 0.0
+wallrun_min_speed = 0.1
 enchant_rarity_wallrun = 0
 [options.enchantments.doublejump]
 doublejumpforce = 0.8
@@ -194,7 +194,7 @@ dont_doublejump_if_falling_faster_than = 9.9999999E7
 enchant_rarity_double_jump = 0
 [options.enchantments.slide]
 slidingjumpforce = 0.6
-sliding_friction = 0.006666666828095913
+sliding_friction = 6.666666828095913E-4
 sliding_min_speed = 0.15
 sliding_end_min_speed = 0.01
 enchant_rarity_sliding = 0
