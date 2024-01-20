@@ -1,0 +1,205 @@
+
+#Server Config Settings
+[server]
+	#The maximum number of notifications each player can have before old entries are deleted.
+	#Lower if you encounter packet size problems.
+	#Range: > 0
+	notificationLimit = 500
+	#Whether illegally broken traders (such as being replaced with /setblock, or modded machines that break blocks) will safely eject their block/contents into a temporary storage area for the owner to collect safely.
+	#If disabled, illegally broken traders will throw their items on the ground, and can thus be griefed by modded machines.
+	ejectIllegalBreaks = true
+	#Determines whether or not coins should be craftable via the Coin Minting Machine.
+	canMintCoins = true
+	#Determines whether or not coins can be melted back into their source material in the Coin Minting Machine.
+	canMeltCoins = false
+	#Default number of ticks it takes to mint a coin via the Coin Minting Machine.
+	#Range: 1 ~ 72000
+	defaultMintDuration = 100
+
+	#Specific Coin Minting Settings.
+	[server.coin_minting]
+		#Whether copper coins can be minted.
+		canMintCopper = true
+		#Whether iron coins can be minted.
+		canMintIron = true
+		#Whether gold coins can be minted.
+		canMintGold = true
+		#Whether emerald coins can be minted.
+		canMintEmerald = true
+		#Whether diamond coins can be minted.
+		canMintDiamond = true
+		#Whether netherite coins can be minted.
+		canMintNetherite = true
+
+	#Specific Coin Melting Settings.
+	[server.coin_melting]
+		#Whether copper coins can be melted.
+		canMeltCopper = true
+		#Whether iron coins can be melted.
+		canMeltIron = true
+		#Whether gold coins can be melted.
+		canMeltGold = true
+		#Whether emerald coins can be melted.
+		canMeltEmerald = true
+		#Whether diamond coins can be melted.
+		canMeltDiamond = true
+		#Whether netherite coins can be melted.
+		canMeltNetherite = true
+
+	#Wallet Settings.
+	[server.wallet]
+		#The lowest level wallet capable of exchanging coins in the UI.
+		#0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet; 6-No Wallet
+		#Range: 0 ~ 6
+		convertLevel = 1
+		#The lowest level wallet capable of automatically collecting coins while equipped.
+		#0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet; 6-No Wallet
+		#Range: 0 ~ 6
+		pickupLevel = 2
+		#The lowest level wallet capable of allowing transfers to/from your bank account.
+		#0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet; 6-No Wallet
+		#Range: 0 ~ 6
+		bankLevel = 5
+
+	#Item Capacity Upgrade Settings
+	[server.upgrades]
+		#The amount of item storage added by the first Item Capacity upgrade (Iron).
+		#Range: 1 ~ 1728
+		upgradeCapacity1 = 192
+		#The amount of item storage added by the second Item Capacity upgrade (Gold).
+		#Range: 1 ~ 1728
+		upgradeCapacity2 = 384
+		#The amount of item storage added by the third Item Capacity upgrade (Diamond).
+		#Range: 1 ~ 1728
+		upgradeCapacity3 = 576
+
+	#Money Chest Upgrade Settings
+	[server.money_chest_upgrades]
+		#The radius (in meters) of the Money Chest Magnet Upgrade (Copper)'s coin collection.
+		#Range: 1 ~ 50
+		magnetRange1 = 4
+		#The radius (in meters) of the Money Chest Magnet Upgrade (Iron)'s coin collection.
+		#Range: 1 ~ 50
+		magnetRange2 = 6
+		#The radius (in meters) of the Money Chest Magnet Upgrade (Gold)'s coin collection.
+		#Range: 1 ~ 50
+		magnetRange3 = 8
+		#The radius (in meters) of the Money Chest Magnet Upgrade (Emerald)'s coin collection.
+		#Range: 1 ~ 50
+		magnetRange4 = 10
+
+	#Enchantment Settings
+	[server.enchantments]
+		#The cost required to repair a single item durability point with the Money Mending enchantment.
+		moneyMendingCoinCost = "coin;1-lightmanscurrency:coin_copper"
+		#The base radius around the player that the Coin Magnet enchantment will collect coins from.
+		#Range: 0 ~ 50
+		coinMagnetRangeBase = 5
+		#The increase in collection radius added by each additional level of the enchantment.
+		#Range: 0 ~ 50
+		coinMagnetRangeLevel = 2
+
+	#Auction House Settings
+	[server.auction_house]
+		#Whether the Auction House will be automatically generated and accessible.
+		#If disabled after players have interacted with it, items & money in the auction house cannot be accessed until re-enabled.
+		#If disabled, it is highly recommended that you also disable the 'crafting.allowAuctionStandCrafting' option in the common config.
+		enabled = true
+		#Whether the Auction House will appear in the trading terminal.
+		#If false, you will only be able to access the Auction House from an Auction Stand.
+		visibleOnTerminal = true
+		#The minimum number of days an auction can be carried out.
+		#Range: > 0
+		minDuration = 0
+		#The maximum number of days an auction can be carried out.
+		#Range: > 1
+		maxDuration = 30
+
+	#Network Terminal Settings
+	[server.terminal]
+		#Whether Traders with no defined Custom Name will be sorted to the bottom of the Trader list on the Network Terminal.
+		sortUnnamedToBottom = false
+
+	#Player Trading Options
+	[server.player_trading]
+		#The maximum distance allowed between players in order for a player trade to persist.
+		#-1 will always allow trading regardless of dimension.
+		#0 will allow infinite distance but require that both players be in the same dimension.
+		#Range: -1.0 ~ 1.7976931348623157E308
+		maxPlayerDistance = -1.0
+
+	#Tax Block
+	[server.taxes]
+		#Whether Tax Blocks can only be activated by an Admin in LC Admin Mode.
+		#Will not prevent players from crafting or placing/configuring Tax Blocks.
+		adminOnlyActivation = false
+		#The maximum tax rate (in %) a Tax Block is allowed to enforce.
+		#Range: 1 ~ 99
+		maxTaxRate = 25
+		#The maximum radius of a Tax Block's area in meters.
+		#Range: > 16
+		maxRadius = 256
+		#The maximum height of a Tax Block's area in meters.
+		#Range: > 8
+		maxHeight = 64
+		#The maximum vertical offset of a Tax Block's vertical offset in meters.
+		#Note: Vertical offset can be negative, so this will also enforce the lowest value.
+		#Range: > 4
+		maxVertOffset = 32
+
+	#Event Coins
+	[server.events]
+		#Whether the Chocolate Event Coins will be added to the coin data.
+		#Requires /lcreload for changes to take effect.
+		#Note: Disabling will not remove any Chocolate Coin items that already exist.
+		chocolate = true
+		#The percentage of Chocolate Coins being dropped instead of normal coins while an event is active.
+		#Note: Will only replace the built-in coins, so if you've modified the loot items to not include the default copper -> netherite coins, the chocolate coins will not drop.
+		#Range: 0.0 ~ 1.0
+		chocolateRate = 0.1
+		#Whether the Chocolate Coins will give players custom potion and/or healing effects on consumption.
+		chocolateEffects = true
+
+	#Claim purchasing settings for FTB Chunks & Cadmus. Requires FTB Chunks or Cadmus to apply!
+	[server.claim_purchasing]
+		#Whether the '/lcclaims buy claim' command will be accessible to players.
+		allowClaimPurchase = false
+		#The price per claim chunk purchased.
+		claimPrice = "coin;1-lightmanscurrency:coin_gold"
+		#The maximum number of extra claim chunks allowed to be purchased with this command.
+		#Note: This count includes extra claim chunks given to the player/team via normal FTB Chunks methods as well (if applicable).
+		#Range: > 1
+		maxClaimCount = 1000000
+		#Whether the `/lcclaims buy forceload` command will be accessible to players.
+		allowForceloadPurchase = false
+		#The price per forceload chunk purchased.
+		forceloadPrice = "coin;10-lightmanscurrency:coin_netherite"
+		#The maximum number of extra forceload chunks allowed to be purchased with this command.
+		#Note: This count includes extra forceload chunks given to the player/team via normal FTB Chunks methods as well (if applicable).
+		#Range: > 1
+		maxForceloadCount = 100
+
+	#Discord bot settings. Requires lightmansdiscord v0.0.3.0+ to use.
+	[server.discord]
+		#The channel where users can run the currency commands and where currency related announcements will be made.
+		channel = "000000000000000000"
+		#Prefix for currency commands.
+		prefix = "!"
+		#Whether the !search command should limit its search results to only Network Traders, or if it should list all traders.
+		limitSearchToNetwork = true
+
+		#Bot notification options.
+		[server.discord.notifications]
+			#Whether a notification will appear in the currency bot channel when a Network Trader is created.
+			#Notification will have a 60 second delay to allow them time to customize the traders name, etc.
+			networkTraderBuilt = true
+			#Whether a notification will appear in the currency bot channel when an Auction is created in the Auction House.
+			auctionHouseCreated = true
+			#Whether a notification will appear in the currency bot channel when a Persistent Auction is created automatically.
+			#Requires that auction house creation notifications also be enabled.
+			auctionHousePersistentCreations = true
+			#Whether a notification will appear in the currency bot channel when an Auction is cancelled in the Auction House.
+			auctionHouseCancelled = false
+			#Whether a notification will appear in the currency bot channel when an Auction is completed and had a bidder.
+			auctionHouseWon = true
+
