@@ -1,7 +1,14 @@
 #Enable/Disable Server Entries overrides
-enabled = false
+enabled = true
 #Internal Version Number. NO TOUCHY!
 version = 2
 #Server override entries
-entry = []
+[[entry]]
+	ip = "freefantasycraft.ddns.net"
+	description = "An official FFC-SMP"
+	state = "creating and socializing"
+	largeImageKey = ""
+	largeImageText = ""
+	smallImageKey = ""
+	smallImageText = ""
 

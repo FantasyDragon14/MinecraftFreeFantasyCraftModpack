@@ -5,6 +5,6 @@
 	customCurioGoggleSlot = false
 	#Uses custom curio slot for backtank instead of the back slot
 	customCurioBacktankSlot = false
-	#Enables experimental features
+	#Enables experimental features (Smithing the goggles onto normal helmets)
 	enableExperimentalFeatures = true
 

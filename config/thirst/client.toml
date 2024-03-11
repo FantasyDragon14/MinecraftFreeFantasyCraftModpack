@@ -9,3 +9,7 @@
 	#How many pixels should the thirst bar be shifted horizontally from its original position
 	thirstBarXOffset = 0
 
+["Client Drink Mechanics"]
+	#Whether players needs two hands available to drink water from source
+	DrinkBothHandNeeded = true
+
